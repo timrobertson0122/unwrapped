@@ -1,5 +1,5 @@
 body {
-background-color: #ffffff
+background-color: #ffffff;
 }
 
 .tweet {
@@ -7,62 +7,55 @@ background-color: #ffffff
   background-color: #fafafa;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
-  line-height: 1.42857143;
   overflow: hidden;
 }
 
-.hr-top {
+hr {
+  height: 1px;
+  border-top: aliceblue;
   margin-top: 10px;
-  height: 1px;
-  background: #ffffff;
-  border-bottom: 0;
-  border-color: #fafafa
-}
-
-.hr-top {
-  /*margin-bottom: 10px;*/
-  height: 1px;
-  background: #ffffff;
-  border-bottom: 0;
-  border-color: #fafafa;
+  margin-bottom: 10px;
 }
 
 img {
   float: left;
-  width: 12%;
+  width: 11%;
   padding: 10px;
-  padding-top: 0px;
-}
-
-.username {
-  width: 83%;
-  margin-left: 12%;
-  margin-right: 5%;
-  padding-bottom: 5px;
-}
-
-.username h4 {
-  color: #19171d;
-  display: inline-block;
+  padding-top: 5px;
 }
 
 .message {
-  width: 83%;
-  margin-left: 12%;
-  padding-top: 0px;
-}
-
-h5 {
-  color: #d2d3d5;
-  float: right;
+  width: 70%;
+  padding-top: 5px;
+  padding-bottom: 35px;
   display: inline-block;
 }
 
-p {
+.message h4 {
   color: #19171d;
-  float: right;
+  display: block;
+  margin: 0;
+}
+
+.message p {
+  margin: 0;
 }
 
 p1 {
-  color: #afb1b5;
+color: #818182;
+font-weight: : bold;
+}
+
+.date {
+  color: #d2d3d5;
+  display: inline-block;;
+  float: right;
+  text-align: right;
+  vertical-align: top;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.date h5 {
+  margin: 0;
 }
