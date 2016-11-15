@@ -1,29 +1,68 @@
-div {
-  width: 980px;
-  height: 168px;
+body {
+background-color: #ffffff
+}
+
+.tweet {
+  width: 40%;
   background-color: #fafafa;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
+  overflow: hidden;
+}
+
+.hr-top {
+  margin-top: 10px;
+  height: 1px;
+  background: #ffffff;
+  border-bottom: 0;
+  border-color: #fafafa
+}
+
+.hr-top {
+  /*margin-bottom: 10px;*/
+  height: 1px;
+  background: #ffffff;
+  border-bottom: 0;
+  border-color: #fafafa;
 }
 
 img {
   float: left;
-  width: 10%;
-  padding-right: 10px;
+  width: 12%;
+  padding: 10px;
+  padding-top: 0px;
 }
 
-h4 {
+.username {
+  width: 83%;
+  margin-left: 12%;
+  margin-right: 5%;
+  padding-bottom: 5px;
+}
+
+.username h4 {
   color: #19171d;
-  width: 200px;
+  display: inline-block;
+}
+
+.message {
+  width: 83%;
+  margin-left: 12%;
+  padding-top: 0px;
 }
 
 h5 {
   color: #d2d3d5;
   float: right;
-
+  display: inline-block;
 }
 
-h6 {
-  color: #7f8891;
+p {
+  color: #19171d;
+  float: right;
+}
+
+p1 {
+  color: #afb1b5;
 }
