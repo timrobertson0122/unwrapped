@@ -1,0 +1,29 @@
+div {
+  width: 980px;
+  height: 168px;
+  background-color: #fafafa;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+img {
+  float: left;
+  width: 10%;
+  padding-right: 10px;
+}
+
+h4 {
+  color: #19171d;
+  width: 200px;
+}
+
+h5 {
+  color: #d2d3d5;
+  float: right;
+
+}
+
+h6 {
+  color: #7f8891;
+}
